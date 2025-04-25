@@ -1,0 +1,91 @@
+/* General styling */
+body {
+  background: #fafafa; /* Light background */
+  color: #333333;
+  margin-top: 5rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #444444; /* Darker color for headings */
+}
+
+/* Navbar */
+.bg-steel {
+  background-color: #5f788a; /* Navbar background */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db; /* Navbar link color */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff; /* Navbar link hover color */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500; /* Active link weight */
+}
+
+/* Content Section */
+.content-section {
+  background: #ffffff; /* White background for content */
+  padding: 10px 20px; /* Padding for content */
+  border: 1px solid #dddddd; /* Light border */
+  border-radius: 3px; /* Slightly rounded corners */
+  margin-bottom: 20px; /* Space below content */
+}
+
+/* Articles */
+.article-title {
+  color: #444444; /* Article title color */
+}
+
+a.article-title:hover {
+  color: #428bca; /* Title hover color */
+  text-decoration: none; /* No underline on hover */
+}
+
+/* Article Content */
+.article-content {
+  white-space: pre-line; /* Preserve whitespace */
+}
+
+/* Article Images */
+.article-img {
+  height: 65px; /* Image height */
+  width: 65px; /* Image width */
+  margin-right: 16px; /* Space to the right */
+}
+
+/* Article Metadata */
+.article-metadata {
+  padding-bottom: 1px; /* Padding at bottom */
+  margin-bottom: 4px; /* Space below metadata */
+  border-bottom: 1px solid #e3e3e3; /* Light border */
+}
+
+.article-metadata a:hover {
+  color: #333; /* Color on hover */
+  text-decoration: none; /* No underline on hover */
+}
+
+/* SVG Icons */
+.article-svg {
+  width: 25px; /* Icon width */
+  height: 25px; /* Icon height */
+  vertical-align: middle; /* Align with text */
+}
+
+/* Account Images */
+.account-img {
+  height: 125px; /* Account image height */
+  width: 125px; /* Account image width */
+  margin-right: 20px; /* Space to the right */
+  margin-bottom: 16px; /* Space below */
+}
+
+/* Account Heading */
+.account-heading {
+  font-size: 2.5rem; /* Heading size */
+}

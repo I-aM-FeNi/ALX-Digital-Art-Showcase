@@ -1,0 +1,205 @@
+/* General styling */
+body {
+  background-color: #f0f8ff; /* A light, soothing background */
+  color: #333333;
+  margin-top: 5rem;
+  font-family: 'Arial', sans-serif; /* Modern, clean font */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2a9d8f; /* A vibrant turquoise for headings */
+  font-family: 'Montserrat', sans-serif; /* Bold, stylish font for impact */
+}
+
+/* Navbar */
+.bg-steel {
+  background-color: #264653; /* Deep teal for a modern feel */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #e9c46a; /* Bright yellow to stand out */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff; /* Pure white on hover */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid #f4a261; /* Orange underline to highlight the active page */
+}
+
+/* Content Section */
+.content-section {
+  background: #ffffff;
+  padding: 20px 30px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adding depth to content blocks */
+  margin-bottom: 30px;
+}
+
+/* Articles */
+.article-title {
+  color: #e76f51; /* Bright coral color for titles */
+  font-weight: bold;
+}
+
+a.article-title:hover {
+  color: #2a9d8f;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out; /* Subtle hover effect */
+}
+
+/* Article Content */
+.article-content {
+  white-space: pre-line;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.article-img {
+  height: 80px;
+  width: 80px;
+  margin-right: 16px;
+  border-radius: 50%; /* Circular artist images */
+  border: 2px solid #2a9d8f; /* Border to match heading */
+}
+
+.article-metadata {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e76f51; /* Coral color for post metadata */
+}
+
+.article-metadata a:hover {
+  color: #264653; /* Dark teal for hover effect */
+  text-decoration: underline;
+}
+
+/* SVG Icons */
+.article-svg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  fill: #e76f51; /* Coral color for icons */
+}
+
+/* Account Images */
+.account-img {
+  height: 140px;
+  width: 140px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  border: 3px solid #e9c46a; /* Bright yellow for user images */
+}
+
+.account-heading {
+  font-size: 3rem;
+  color: #264653; /* Deep teal for account headings */
+  font-weight: bold;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #e9c46a; /* Bright yellow background for sidebar */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin-bottom: 30px; /* Space from bottom content */
+}
+
+.sidebar h3 {
+  color: #264653; /* Deep teal for sidebar headings */
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0; /* Space between items */
+}
+
+.sidebar li.list-group-item {
+  background-color: #ffffff; /* White background for list items */
+  border: 1px solid #dddddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.sidebar li.list-group-item:hover {
+  background-color: #2a9d8f; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+    margin-top: 3rem;
+  }
+
+  .content-section {
+    padding: 15px 20px;
+  }
+
+  .sidebar {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .article-img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .account-img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .content-section {
+    padding: 10px 15px;
+  }
+
+  .article-title {
+    font-size: 1.2rem;
+  }
+
+  .article-content {
+    font-size: 1rem;
+  }
+
+  .sidebar {
+    padding: 8px;
+  }
+
+  .sidebar li.list-group-item {
+    padding: 8px;
+  }
+
+  .account-heading {
+    font-size: 2rem;
+  }
+
+  .account-img {
+    height: 100px;
+    width: 100px;
+  }
+}
